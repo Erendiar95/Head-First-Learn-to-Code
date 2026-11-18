@@ -10,20 +10,20 @@ i = 0
 maximo_valor = puntuaciones[0]
 # posiciones_mayores = []
 
-while (i < tamaño_de_la_lista):
-    print("La solución de burbujas número#", i, "obtuvo una puntuación de: ", puntuaciones[i])
-    i = i + 1
+for i in range(tamaño_de_la_lista):
+    print("La solución de burbujas número #" + str(i), "obtuvo una puntuación de: ", puntuaciones[i])
+    
 
-print("La cantidad de tests fue: ", tamaño_de_la_lista)
-
-i = 0
-
-while(i < tamaño_de_la_lista):
-    if (puntuaciones[i] > maximo_valor):
-        maximo_valor = puntuaciones[i]
-        i = i + 1
-    else:
-        i = i + 1
-
-print("La mayor puntuación de la lista fue: ", maximo_valor)
-# print("Los número de experimentos en la lista con las soluciones de mayor puntuación fueron: ", posiciones_mayores)
+##print("La cantidad de tests fue: ", tamaño_de_la_lista)
+##
+##i = 0
+##
+##while(i < tamaño_de_la_lista):
+##    if (puntuaciones[i] > maximo_valor):
+##        maximo_valor = puntuaciones[i]
+##        i = i + 1
+##    else:
+##        i = i + 1
+##
+## print("La mayor puntuación de la lista fue: ", maximo_valor)
+## print("Los número de experimentos en la lista con las soluciones de mayor puntuación fueron: ", posiciones_mayores)
