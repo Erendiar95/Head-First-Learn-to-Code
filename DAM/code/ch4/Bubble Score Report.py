@@ -8,7 +8,7 @@ puntuaciones = [60, 50, 60, 58, 54, 54,
 tamaño_de_la_lista = len(puntuaciones)
 i = 0
 maximo_valor = puntuaciones[0]
-posiciones_mayores = []
+# posiciones_mayores = []
 
 while (i < tamaño_de_la_lista):
     print("La solución de burbujas número#", i, "obtuvo una puntuación de: ", puntuaciones[i])
@@ -26,4 +26,4 @@ while(i < tamaño_de_la_lista):
         i = i + 1
 
 print("La mayor puntuación de la lista fue: ", maximo_valor)
-#print("Los experimentos en la lista con las soluciones de mayor puntuación fueron: ", posiciones_mayores)
+# print("Los número de experimentos en la lista con las soluciones de mayor puntuación fueron: ", posiciones_mayores)
