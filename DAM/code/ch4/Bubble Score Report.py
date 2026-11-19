@@ -15,3 +15,13 @@ for i in range(tamaño_de_la_lista):
 
 print('El número de tests fueron:', tamaño_de_la_lista)
 print("La mayor puntuación de la lista fue: ", maximo_valor)
+
+mejores_mezclas = []
+
+for i in range(tamaño_de_la_lista):
+    if puntuaciones[i] == maximo_valor:
+        mejores_mezclas.append(i)
+
+print('Las mejores mezclas fueron:', mejores_mezclas)
+
+#coste = [.25, .2]
