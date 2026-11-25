@@ -1,9 +1,10 @@
 def get_attribute(query, default):
+    #Variables locales
     question = query + ' [' + default + ']? '
     answer = input(question)
     if answer == '':
         answer = default
-    answer = print('You chose', answer)
+    print('You chose', answer)
     return answer # Ésto no es necesario, pero lol
 
 #Variables globales:
